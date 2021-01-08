@@ -41,7 +41,6 @@ alt: A gif showing where you can find GitHub Actions template in your Github rep
 
 ## GitHub-related Vocabulary
 
-
 ```{figure} ../../figures/gh_actions_structure.png
 ---
 width: 600px
