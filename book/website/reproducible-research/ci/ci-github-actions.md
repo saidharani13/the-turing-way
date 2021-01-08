@@ -9,7 +9,7 @@ In this section, we walk you through a basic setup of continuous integration usi
 - Triggering code reviews and pull requests
 - Managing branches
 
-GitHub Actions are event-driven, meaning it responds to an event (`PR` created, issue created, etc.) and triggers an action (label, test, sort, ..). A collection of actions is called a workflow.
+GitHub Actions are event-driven, meaning it responds to an event (`PR` created, issue created, ...) and triggers an action (label, test, sort, ...). A collection of actions is called a workflow.
 
 ```{figure} ../../figures/gih_action_diagrame.png
 ---
