@@ -1,7 +1,7 @@
 (rr-ci-ghactions)=
 # Continuous Integration with GitHub Actions
 
-In this section we walk you through a basic setup of continuous integration using GitHub Actions. **GitHub Actions** is a task automation system fully integrated with GitHub. In other words, it is an API that orchestrates any workflow, based on any event. It can make makes it easier than ever to incorporate CI into the repositories. It is a flexible way to automate nearly every aspect of your software workflow. Here are just a few examples of use cases of GitHub Actions:
+In this section, we walk you through a basic setup of continuous integration using GitHub Actions. **GitHub Actions** is a task automation system fully integrated with GitHub. In other words, it is an API that orchestrates any workflow based on any event. It can make makes it easier than ever to incorporate CI into the repositories. It is a flexible way to automate nearly every aspect of your software workflow. Here are just a few examples of use cases of GitHub Actions:
 
 - Automated testing of the software
 - Generate reports of the status of any changes in the repository
@@ -9,15 +9,14 @@ In this section we walk you through a basic setup of continuous integration usin
 - Triggering code reviews and pull requests
 - Managing branches
 
-GitHub Actions are event-driven, meaning it responds ti an event (PR created, issue created, ...) and trigger an action (label, test, sort, ...). A collection of jobs are called a workflow.
-
+GitHub Actions are event-driven, meaning it responds to an event (e.g., PR created, issue created, etc.) and triggers an action (e.g., label, test, sort, ..).
 
 ```{figure} ../../figures/gih_action_diagrame.png
 ---
-width: 600px
+width: 400px
 align: center
-name: example
-alt: Github actions diagrame
+name: Github actions
+alt: a diagrame showing how events can trigger a job, and a collection of jobs called a workflow.
 ---
 ```
 
@@ -27,25 +26,30 @@ GitHub Actions uses YAML syntax and stored in a directory called `.github/workfl
 
 #### 1- Using GitHub Actions template
 
-If you want to get started with GitHub Actions, you can start by clicking the "Actions" tab in the repository where you want to create a workflow as shown below.
-
+If you want to get started with GitHub Actions, you can start by clicking the "Actions" tab in the repository where you want to create a workflow, as shown below.
 
 ```{figure} ../../figures/gifs/start_ghactions.gif
 ---
 width: 600px
 align: center
-name: example
-alt: example of gif
+name: GitHub action template
+alt: A gif showing where you can find GitHub Actions template in your Github repo.
 ---
 ```
 
-
 #### 2- Using libraries-specific templates.
 
+## GitHub-related Vocabulary
 
 
-# GitHub-related Vocabulary
-<!-- (I'll explain each vocab separately using diagrams made with adobe illustrator) -->
+```{figure} ../../figures/gh_actions_structure.png
+---
+width: 600px
+align: center
+name: GitHub action Structure
+alt: a diagrame showing how the workflow is divided into jobs and steps.
+---
+```
 
 **1. WorkFlow**
 
@@ -57,7 +61,7 @@ A job is a section of the workflow, and is made up of one or more steps. In this
 
 **3. Step**
 
-A step represents one effect of the automation. A step could be defined as a GitHub Action, or another unit, like printing something to the console.
+Step: A step represents one effect of the automation. A step could be defined as a GitHub Action, or another unit, like printing something to the console.
 
 **4. Actions**
 
