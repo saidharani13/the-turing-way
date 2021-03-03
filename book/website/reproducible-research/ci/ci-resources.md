@@ -24,7 +24,13 @@ Travis's official tutorial is [here](https://docs.travis-ci.com/user/tutorial/).
 
 **Job:** An automated process that clones your repository into a virtual environment and then carries out a series of phases such as compiling your code and running tests. A job fails if the return code of the script encounters an error.
 
-**Travis:** A commonly used continuous integration platform.
+**GitHub Actions:** It is a CI/CD service that runs on GitHub repos.
+
+**Workflows** They are YAML files stored in the _.github/workflows_ directory of a repository.
+
+**Action** It is a package you can import and use in your **workflow**. GitHub provides an **[Actions Marketplace](https://github.com/marketplace?type=actions)** to find actions to use in workflows.
+
+**Job** It is a virtual machine that runs a series of **steps**. **Jobs** are parallelized by default, but **steps** are sequential by default.
 
 ## Bibliography
 
