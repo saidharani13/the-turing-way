@@ -60,6 +60,12 @@ The time needed to maintain a reproducible project presents a significant barrie
 
 *replace this text with the content of barrier 8*
 
-## Barrier 9
+## Being reproducible does not mean the answer is right
 
-*replace this text with the content of barrier 9*
+By making the code and data used to produce a result openly available to others, our results may be **reproduced** but mistakes made by the initial author can be carried through.
+Getting the same wrong answer each time is a step in the right direction, but still very much a **wrong** answer!
+
+It is important to remember that reproducibility is necessary but not sufficient for good quality research.
+A critical approach is needed, rather than naively using existing software without understanding what it does.
+(See, for example, [a discussion](https://ryxcommar.com/2019/08/30/scikit-learns-defaults-are-wrong) in August 2019 about whether the default settings for Scikit-learn's implementation of logistic regression are misleading to new users.)
+Interperability and interoperability are required to properly evaulate the original research and to strengthen findings.
