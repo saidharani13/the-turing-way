@@ -30,9 +30,12 @@ John Ioannidis published an influential paper in 2005 titled "Why Most Published
 Therefore it is very likely that there is a lot of duplicated work in data science.
 Too many different researchers are asking the same question, not getting the answer they expect or want, and then not telling anyone what they have found.
 
-## Barrier 3
+## Held to higher standards than others
 
-*replace this text with the content of barrier 3*
+A researcher who makes their work reproducible by sharing their code and data may be held to a higher standard than other researchers.
+If authors share nothing at all then all readers of a manuscript can do is trust (or not trust) the results.
+If code and data are available, peer reviewers may go looking for differences in the implementation (compared to how they would have analysed the data) and require additional changes from the authors of the submitted manuscript before it is accepted for peer review.
+This problem also relates to readers of a published paper scrutinising the work more carefully as described in the [Plead the Fifth](#plead-the-fifth) section above.
 
 ## Barrier 4
 
