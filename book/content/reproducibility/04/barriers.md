@@ -56,9 +56,21 @@ The time needed to maintain a reproducible project presents a significant barrie
 
 *replace this text with the content of barrier 7*
 
-## Barrier 8
+## Big data and complex computational infrastructure
 
-*replace this text with the content of barrier 8*
+Big data is conceptualised in different ways by different researchers. 
+"Big" data may be complex, come from a variety of data sources, is large in storage volume and/or be streamed at very high temporal resolution. 
+Although there are ways to set random seeds and take snapshots of a dataset at a particular moment in time, it can be difficult to have identical data across different runs of an analysis pipeline.
+This is particularly relevant in the context of tools for parallel computing.
+For example, streaming data such as flight tracking or internet traffic can not be stored and must be processed in real time.
+
+A more common challenge for "big data" researchers is the variability of software performance across operating systems and how quickly the tools change over time.
+An almost constantly changing ecosystem of data science technologies is available, which means reproducing results in the future is highly variable and dependent on using perfectly backwards compatible tools as they develop. 
+Very often the results of statistical tests will vary depending on the configuration of the infrastructure that was used in each of the experiments, making it very hard to independently reproduce a result.
+Experiments are often dependent on random initialisation for iterative algorithms and not all software includes the ability to fix a pseudorandom number without limiting parallelisation capabilities (for example  e.g. in Tensorflow).
+These tools can require in depth technical skills which are not widely available to data scientists.
+The Hadoop framework, for instance, is extremely complex to deploy data science experiments without strong software and hardware engineering knowledge. 
+Even "standard" high performance computing, can be difficult to set up to be perfectly reproducible, particularly across different cloud computing providers or institutional configurations.
 
 ## Being reproducible does not mean the answer is right
 
