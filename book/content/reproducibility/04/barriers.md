@@ -37,9 +37,16 @@ If authors share nothing at all then all readers of a manuscript can do is trust
 If code and data are available, peer reviewers may go looking for differences in the implementation (compared to how they would have analysed the data) and require additional changes from the authors of the submitted manuscript before it is accepted for peer review.
 This problem also relates to readers of a published paper scrutinising the work more carefully as described in the [Plead the Fifth](#plead-the-fifth) section above.
 
-## Barrier 4
+## Is not considered for promotion
 
-*replace this text with the content of barrier 4*
+In the current academic system, a primary consideration for promotion is the proven ability to be awarded grants and recruit students.
+Both funding bodies and prospective students value novelty (it is probably part of the human condition!) and this behaviour is reflected in preferentially rewarding papers with a high [journal impact factor](https://en.wikipedia.org/wiki/Impact_factor).
+As [discussed above](#publication-bias), this bias towards novelty causes a systematic publication bias.
+
+More broadly, the promotion system in academia tends to reward individuals who have shown themselves to be different than others in their field.
+That means sharing code and data to make it easy for "competitors" to do the same work ends up being discouraged by promotion and funding selection panels.
+A good example of this bias is the Nobel Prize award which only goes to a small number of researchers each year, and as such ["overlooks many of its important contributors"](https://www.theatlantic.com/science/archive/2017/10/the-absurdity-of-the-nobel-prizes-in-science/541863/) (Ed Yong, The Atlantic, 2017).
+One of the goals of _The Turing Way_ is to draw attention to the misalignment of the tenure and promotion process with collaborative and reproducible data science.
 
 ## Barrier 5
 
